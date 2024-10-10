@@ -1,3 +1,3 @@
 # NOTALEGT
 ---
-Notalegt is a life-long artistic project based out of London, UK.
+Notalegt is a life-long project based out of London, UK.
