@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+<section class="hero">
+<div>
+<h1>{{ .Title }}</h1>
+{{ .Description | markdownify }}
+</div>
+<div>
+
+</div>
+</section>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,29 @@
+baseURL = "https://notalegt.xyz"
+title = "NOTALEGT"
+
+[permalinks]
+    post = "/blog/:slug"
+
+[menu]
+
+  [[menu.logo]]
+    pre = "logo"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "WORKS"
+    url = "/works"
+    weight = 10
+
+  [[menu.main]]
+    name = "CONTACT"
+    url = "/contact"
+    weight = 20
+
+
+[markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+  [markup.highlight]
+    style = 'catppuccin-macchiato'
